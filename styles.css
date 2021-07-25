@@ -1,5 +1,6 @@
 .u-fcGreen{
   color: #17aeb6;
+
 }
 .c-title__main{
   color: #17aeb6;
@@ -28,10 +29,279 @@ margin: 40px auto 40px;
 font-size: 14px;
 font-weight: bold;
 border-radius: 4px;
+text-align: center;
 }
 
 .c-button__push__btn:hover {
 opacity: 0.9;
+}
+
+.u-fcPink{
+  color: cornflowerblue;
+}
+
+.p-whitening__topBorderSp--green{
+  border-top: 1px solid #17aeb6;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.dddd{
+  vertical-align:middle;
+
+}
+
+.c-box__more{
+  border: #17aeb6 solid 3px;
+  margin-left: 25px;
+margin-right: 25px;
+margin-top: 15px;
+  font-size: 16px;
+  /* padding: 25px 4% 15px; */
+  position: relative;
+  
+}
+.__boad{
+  display: inline-block;
+    position: absolute;
+    top: -26px;
+    left: -25px;
+    background: #17aeb6;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px;
+
+  
+}
+
+}
+.u-fs16{
+text-align: center;
+background-color: beige;
+margin-left: 15px;
+margin-right: 15px;
+width: 40%;
+}
+
+.l-main__inner{
+ 
+border: #17aeb6 3px solid;
+margin-left: 100px;
+margin-right: 100px;
+color: #17aeb6;
+}
+
+nav li{
+  list-style: none;
+
+}
+
+a{
+  color: #666666;
+ display: inline-block;
+  text-align: left;
+
+}
+
+.u-only__spPW2{
+  /* background-color: black; */
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.c-flx__col3-pc__item img{
+
+  max-width: 480px;
+}
+
+.p-whitening__creaning--bgGreen{
+  background-color: #d3f0f2;
+/* padding: 10px; */
+margin-left: 10px;
+}
+.p-whitening__creaning--bgYellowGreen{
+  background-color: mintcream;
+  /* padding: 10px; */
+  margin-left: 10px;
+}
+
+p{
+  text-align: left;
+  color: #666666;
+}
+.c-title__main{
+  /* background-color: olivedrab; */
+  margin-top: 45px;
+}
+
+.p-whitening__creaning__ttl{
+  flex:initial;
+  
+}
+
+.l-main__inner-pconly{
+  background-color: chartreuse;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.u-txtC{
+  /* background-color: navy; */
+  text-align: center;
+}
+.p-whitening__about__col{
+  
+margin-left: auto;
+margin-right: auto;
+  /* background-color: antiquewhite; */
+
+
+}
+
+.p-whitening__creaning{
+  /* background-color: #666666; */
+  display: flex;
+  
+  text-align: center;
+
+}
+
+.p-whitening__about__col--left{
+  /* background: cyan; */
+}
+
+.u-fs11{
+  font-size: 11px;
+  /* background-color: navy; */
+}
+
+.c-box__line--green{
+  border: 1px solid #17aeb6;
+  padding: 8px 12px;
+  line-height: 1.8;
+}
+
+/* ホームホワイトニングスターターキット pタグ */
+.u-fs14{
+  font-size: 14px;
+}
+
+
+/* シェードガイド欄 */
+.u-pw05{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* よくある質問 */
+.p-whitening__secttl{
+  color: #666666;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.u-secColor--1 ul{
+  list-style: none;
+padding: 0;}
+
+.p-whitening__fqalist li{
+  padding: 20px 30px 20px 45px;
+  background-color: #fff;
+}
+  .p-whitening__fqalist li .fqa-ttl{
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .p-whitening__fqalist li .fqa-ttl::before{
+  content: "Q.";
+  color: blueviolet;
+font-family: "Lato" ,sans-serif;
+top: 0;
+margin-left: -36px;
+}
+
+/* ホワイトニングの注意点 */
+
+.p-whitening__inner--w h2{
+  color: #333333;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.u-secColor--1{
+  background-color: #fff;
+}
+
+.l-main__inner__child{
+  max-width: 1000px;
+  padding: 1rem 1.5rem 2rem;
+}
+
+.c-list__title{
+  font-size: 22px;
+}
+
+p:not(c-list__title){
+  font-size: 14px;
+}
+
+
+.c-list__title::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #17aeb6;
+  margin-right: 0.5rem;
+}
+
+.p-whitening__inner--w{
+  text-align: left;
+}
+
+.c-list{
+
+  font-weight: 100;
+  color: #666666;
+}
+.c-list li:not(:last-child){
+    
+    border-bottom: 1px solid #666666;
+  
+}
+
+
+
+ .c-list li{
+   padding: 0.75rem 0 1rem;
+ }
+
+ .u-fs18{
+   font-size: 22px;
+   
+
+ }
+
+/* 全体の指定 */
+:root{
+animate: duration 1s;
+animate: delay 1s;
+animate: repeat 1;
+}
+
+
+
+
+/* medium screen */
+@media(min-width:768px){
+
+  .p-whitening__about__flx{
+    display: flex;
+  
+  }
 }
 
 .u-fcPink{
