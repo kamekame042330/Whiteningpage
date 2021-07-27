@@ -30,20 +30,27 @@ font-size: 14px;
 font-weight: bold;
 border-radius: 4px;
 text-align: center;
+
+transition-property: border-radius,transform, background;
+transition-duration: 1s;
 }
 
 .c-button__push__btn:hover {
 opacity: 0.9;
+border-radius: 30%;
+background-color: cadetblue;
+color: #646464;
 }
 
 .u-fcPink{
-  color: cornflowerblue;
+  color: dodgerblue;
 }
 
 .p-whitening__topBorderSp--green{
   border-top: 1px solid #17aeb6;
-  margin-left: 25px;
-  margin-right: 25px;
+  /* margin-left: 25px; */
+  /* margin-right: 25px; */
+  
 }
 
 .dddd{
@@ -84,13 +91,22 @@ margin-right: 15px;
 width: 40%;
 }
 
+
+/* 目次 */
+
+
+ 
+  
+
 .l-main__inner{
  
 border: #17aeb6 3px solid;
-margin-left: 100px;
-margin-right: 100px;
+margin-left: 167px;
+margin-right: 167px;
 color: #17aeb6;
+
 }
+
 
 nav li{
   list-style: none;
@@ -101,8 +117,13 @@ a{
   color: #666666;
  display: inline-block;
   text-align: left;
-
+  transition-duration: .6s;
 }
+
+a:hover{
+  color: dodgerblue;
+}
+
 
 .u-only__spPW2{
   /* background-color: black; */
@@ -116,12 +137,12 @@ a{
 
 .p-whitening__creaning--bgGreen{
   background-color: #d3f0f2;
-/* padding: 10px; */
+
 margin-left: 10px;
 }
 .p-whitening__creaning--bgYellowGreen{
   background-color: mintcream;
-  /* padding: 10px; */
+  
   margin-left: 10px;
 }
 
@@ -130,7 +151,7 @@ p{
   color: #666666;
 }
 .c-title__main{
-  /* background-color: olivedrab; */
+  
   margin-top: 45px;
 }
 
@@ -140,21 +161,20 @@ p{
 }
 
 .l-main__inner-pconly{
-  background-color: chartreuse;
+  
   margin-left: 25px;
   margin-right: 25px;
 }
 
 .u-txtC{
-  /* background-color: navy; */
+  
   text-align: center;
 }
 .p-whitening__about__col{
   
 margin-left: auto;
 margin-right: auto;
-  /* background-color: antiquewhite; */
-
+  
 
 }
 
@@ -166,9 +186,6 @@ margin-right: auto;
 
 }
 
-.p-whitening__about__col--left{
-  /* background: cyan; */
-}
 
 .u-fs11{
   font-size: 11px;
@@ -179,6 +196,24 @@ margin-right: auto;
   border: 1px solid #17aeb6;
   padding: 8px 12px;
   line-height: 1.8;
+}
+
+/* 歯が黄ばむ原因 */
+.u-only__sp{
+  width: 100%;
+  
+}
+
+.u-mt8{
+  width: 300px;
+
+ 
+}
+
+
+.u-fs10{
+  font-size: 10px;
+  text-align: right;
 }
 
 /* ホームホワイトニングスターターキット pタグ */
@@ -285,12 +320,63 @@ p:not(c-list__title){
 
  }
 
+
 /* 全体の指定 */
 :root{
 animate: duration 1s;
 animate: delay 1s;
 animate: repeat 1;
 }
+
+body{
+  margin-left: 30px;
+  margin-right: 30px;
+  
+/* padding-left: 50px; */
+/* padding-right: 50px; */
+
+  }
+
+/* 歯　もっと詳しく！ */
+.pwhitening__about__flx{
+  margin-top: 10px;
+  margin-bottom: auto;
+}
+
+.pwhitening__about__flx{
+  /* background-color: aquamarine; */
+  /* text-align: center; */
+  width: 100%;
+  max-width: 600px;
+}
+
+
+
+.u-txtL{
+  margin-top: 0;
+}
+
+.u-mt3{
+  padding-top: 40px;
+}
+
+
+/* 目次 */
+
+.l-main__inner{
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+nav>ul{
+  padding: 0;
+  /* text-align: left; */
+}
+
+
 
 
 
@@ -300,113 +386,45 @@ animate: repeat 1;
 
   .p-whitening__about__flx{
     display: flex;
-  
   }
-}
-
-.u-fcPink{
-  color: cornflowerblue;
-}
-
-.p-whitening__topBorderSp--green{
-  border-top: 1px solid #17aeb6;
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-.dddd{
-  margin-top: 10px;
-  align-items: center;
-
-}
-
-.c-box__more{
-  border: #17aeb6 solid 3px;
-  margin-left: 25px;
-margin-right: 25px;
-margin-top: 15px;
-
-
-
-
-  font-size: 16px;
-  /* padding: 25px 4% 15px; */
-  position: relative;
   
-}
-.__boad{
-  display: inline-block;
-    position: absolute;
-    top: -26px;
-    left: -25px;
-    background: #17aeb6;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 8px;
-
-  
-}
-
-
-
-
-
-
-}
-.u-fs16{
-text-align: center;
-/* background-color: beige; */
-margin-left: 15px;
-margin-right: 15px;
-}
-
-.l-main__inner{
- 
-border: #17aeb6 3px solid;
-margin-left: 100px;
-margin-right: 100px;
-color: #17aeb6;
-}
-
-nav li{
-  list-style: none;
-
-}
-.u-txtC{
-  
-}
-a{
-  color: #666666;
- display: inline-block;
-  text-align: left;
+  .p-whitening__about{
+  padding: 40px;
 
 }
 
 
-.u-fcPink{
-  color: cornflowerblue;
+.p-whitening__about__col{
+  width: 60%;
+  padding-left: 40px;
+}
+.p-whitening__about__sec{
+  margin-bottom: 40px;
 }
 
-.p-whitening__topBorderSp--green{
-  border-top: 1px solid #17aeb6;
-
+/* .dddc{ */
+  width: 100px;
 }
 
-.dddd{
-  margin-top: 10px;
-  align-items: center;
+.u-only__sp{
+  /* background-color: cadetblue; */
+  width: 300px;
 
 }
+.p-whitening__about__col--left{
+  width: 60%;
+  order: -1;
+}
 
+.u-mb1
+{
+  background-color: thistle;
+  text-align: center;
+font-size: 20px;
+
+}
 .asdf{
-  display: flex;
-}
-
-.c-title__cross{
-  flex: 1;
-}
-
-.dddd{
   text-align: center;
 }
+ 
+
