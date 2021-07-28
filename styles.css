@@ -486,11 +486,12 @@ tbody{
 
 }
 .haikeigazou{
-  /* background-image: url(img/haikei.jpeg); */
+  background-image: url(img/sora.jpg);
   background-color: aquamarine;
   margin-top: 15px;
- 
-
+  
+    font-size: 20px;
+  color: #333333;
 }
 
 .tel{
@@ -500,6 +501,22 @@ tbody{
 .jusyo{
   cursor: pointer;
 }
+
+.tate{
+  display: flex;
+  flex-direction:column
+  
+}
+
+.tate a{
+text-align: center;
+font-size: 14px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+
+
 /* medium screen */
 @media(min-width:768px){
 
@@ -577,4 +594,3 @@ font-size: 20px;
 
 
 }
-
