@@ -293,6 +293,10 @@ p:not(c-list__title){
 }
 
 
+.u-mb1{
+  text-align: center;
+}
+
 .c-list__title::before{
   content: "";
   width: 20px;
