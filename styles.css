@@ -82,16 +82,14 @@ margin-top: 15px;
   
 }
 
-}
-.u-fs16{
-text-align: center;
-background-color: beige;
-margin-left: 15px;
-margin-right: 15px;
-width: 40%;
-}
 
 
+
+
+
+.p-whitening__about__col--lef{
+  margin-top: 45px;
+}
 /* 目次 */
 
 
@@ -151,7 +149,7 @@ p{
   color: #666666;
 }
 .c-title__main{
-  
+
   margin-top: 45px;
 }
 
@@ -233,6 +231,7 @@ margin-right: auto;
   color: #666666;
   font-weight: 400;
   line-height: 1.5;
+  font-size: 26px;
 }
 
 .u-secColor--1 ul{
@@ -271,8 +270,18 @@ margin-left: -36px;
 }
 
 .l-main__inner__child{
-  max-width: 1000px;
+  /* max-width: 1000px; */
   padding: 1rem 1.5rem 2rem;
+}
+
+.p-whitening__about__flx{
+  background-color: white;
+  
+}
+
+.p-whitening__about__col--left{
+  background-color: white;
+  width: 80%;
 }
 
 .c-list__title{
@@ -308,6 +317,10 @@ p:not(c-list__title){
   
 }
 
+.c-hr--green{
+  border: 0;
+  
+}
 
 
  .c-list li{
@@ -321,12 +334,15 @@ p:not(c-list__title){
  }
 
 
+
+
+
 /* 全体の指定 */
-:root{
-animate: duration 1s;
-animate: delay 1s;
-animate: repeat 1;
-}
+/* :root{ */
+/* animate: duration 1s; */
+/* animate: delay 1s; */
+/* animate: repeat 1; */
+/* } */
 
 body{
   margin-left: 30px;
@@ -358,6 +374,7 @@ body{
 
 .u-mt3{
   padding-top: 40px;
+ 
 }
 
 
@@ -379,8 +396,110 @@ nav>ul{
 
 
 
+.p-whitening__inner-ttlbox{
+  border-top: 1px slategray solid;
+}
 
 
+
+
+.js-fadeInSection{
+  background-color: aliceblue;
+}
+
+
+.u-secColor--1 ul{
+  width: 100%;
+}
+
+.u-pb1{
+  background-color: aliceblue;
+}
+.u-pw05{
+  border-top: 1px solid;
+}
+
+.u-mb1{
+  display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  margin-top: 10px;
+  padding-top: 10px;
+  color: #646464;
+}
+
+
+.p-whitening__inner--w{
+  border-top: 1px solid;
+}
+aside>.l-main__inner__child{
+  width: 100%;
+  margin: auto;
+}
+
+.foot{
+  width: 100%;
+margin-bottom: 10px;
+border-collapse: collapse;
+border-bottom: 1px solid #494949;
+line-height: 1;
+}
+thead{
+  border-top: 1px solid #494949;
+  border-bottom: 1px solid #494949;
+  margin: 0;
+    
+}
+th{
+  padding: 12px 0;
+  text-align: center;
+  display: table-cell;
+  width: calc(65%/8);
+  margin: 0;
+    
+}
+table{
+  border-collapse: collapse;
+  color: #494949;
+  line-height: 1;
+  margin: 0;
+    
+}
+td{
+  padding: 14px 0 0;
+  text-align: center;
+  display: table-cell;
+  
+  margin: 0;
+    
+}
+.foot{
+  margin-bottom: 50px;
+}
+
+tbody{
+  margin-bottom: 100px;
+
+}
+.haikeigazou{
+  /* background-image: url(img/haikei.jpeg); */
+  background-color: aquamarine;
+  margin-top: 15px;
+ 
+
+}
+
+.tel{
+  cursor: pointer;
+}
+
+.jusyo{
+  cursor: pointer;
+}
 /* medium screen */
 @media(min-width:768px){
 
@@ -402,9 +521,7 @@ nav>ul{
   margin-bottom: 40px;
 }
 
-/* .dddc{ */
-  width: 100px;
-}
+
 
 .u-only__sp{
   /* background-color: cadetblue; */
@@ -414,11 +531,13 @@ nav>ul{
 .p-whitening__about__col--left{
   width: 60%;
   order: -1;
+
 }
+
 
 .u-mb1
 {
-  background-color: thistle;
+  /* background-color: thistle; */
   text-align: center;
 font-size: 20px;
 
@@ -427,4 +546,35 @@ font-size: 20px;
   text-align: center;
 }
  
+.u-mt08{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.u-txtL{
+  /* background-color: rebeccapurple; */
+  font-size: 24px;
+}
+.c-title__cross{
+  font-size: 24px;
+}
+
+
+
+.u-pw05{
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.c-box__more{
+  margin-bottom: 15px;
+}
+.u-secColor--6{
+  background-color: aliceblue;
+}
+
+
+
+}
 
